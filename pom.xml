@@ -30,6 +30,7 @@
 	<dependency>
 <groupId>commons-logging</groupId>
 <artifactId>commons-logging</artifactId>
+		<version>4.12</version>
 </dependency>
 		<!-- end::junit[] -->
 	</dependencies>
