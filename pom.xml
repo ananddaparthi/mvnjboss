@@ -6,12 +6,12 @@
 	<artifactId>gs-maven</artifactId>
 	<packaging>war</packaging>
 	<version>0.1.0-SNAPSHOT</version>
-	<distributionManagement>
+	<!-- <distributionManagement>
    <snapshotRepository>
       <id>developer</id>
       <url>http://localhost:8081/repository/test/</url>
    </snapshotRepository>
-</distributionManagement>
+</distributionManagement> -->
 <dependencies>
 		<!-- tag::joda[] -->
 		<dependency>
@@ -27,11 +27,12 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
-	<dependency>
+	<!-- <dependency>
 <groupId>commons-logging</groupId>
 <artifactId>commons-logging</artifactId>
 		<version>4.12</version>
-</dependency>
+</dependency>  
+	-->
 		<!-- end::junit[] -->
 	</dependencies>
 
